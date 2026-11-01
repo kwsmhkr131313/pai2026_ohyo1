@@ -1,0 +1,17 @@
+# 作業用のバックアップと、ノートブックで使われなくなった出力（bk/unused_outputs/）
+bk/
+ipynb/
+
+# 外部から取得するデータ（00_data_acquisition.ipynb で再取得できる）
+data/
+
+# 作成した学習用データセット（04_dataset_build.ipynb で再作成できる）
+outputs/so101_lerobot_dataset/
+outputs/so101_lerobot_dataset_wristcam/
+
+# 学習済みモデルの重み（DP 305 MB、ACT 206 MB。GitHub の 100 MB 制限を超えるため別途配布）
+training_results/*/best/model.safetensors
+
+# Jupyter・Python の一時ファイル
+.ipynb_checkpoints/
+__pycache__/

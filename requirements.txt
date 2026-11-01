@@ -1,0 +1,17 @@
+# 本資料のノートブックを実行したときのバージョン（Python 3.12.12）
+numpy==2.2.6
+scipy==1.18.0
+pandas==2.3.3
+pyarrow==25.0.1
+matplotlib==3.11.1
+japanize-matplotlib
+pin==3.8.0
+mujoco==3.12.0
+huggingface_hub==1.28.0
+av==15.1.0
+opencv-python==5.0.0.93
+imageio==2.37.4
+imageio-ffmpeg
+torch==2.11.0
+lerobot==0.6.1
+jupyter
