@@ -9,7 +9,7 @@ data/
 outputs/so101_lerobot_dataset/
 outputs/so101_lerobot_dataset_wristcam/
 
-# 学習済みモデルの重み（DP 305 MB、ACT 206 MB。GitHub の 100 MB 制限を超えるため別途配布）
+# 学習済みモデルの重み（DP 305 MB、ACT 206 MB。GitHub の 100 MB 制限を超えるため）
 training_results/*/best/model.safetensors
 
 # Jupyter・Python の一時ファイル
